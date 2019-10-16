@@ -1,0 +1,22 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.9.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
+group = 'com.example.logbook.demo'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-jersey'
+    compile group: 'org.zalando', name: 'logbook-spring-boot-starter', version: '2.0.0-RC.5'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+}
