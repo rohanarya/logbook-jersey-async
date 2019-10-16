@@ -1,7 +1,7 @@
 # logbook-jersey-async
 logbook-jersey-async demo project
 
-* Do ./gradlew bootRun to start the service
+* Execute ./gradlew bootRun to start the service
 * Call the below URL and watch the log pattern on the console
 
 
